@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "workspace": {
+    "name": "market-intelligence-engine",
+    "createdAt": 1771247644237,
+    "preset": "starter"
+  },
+  "authorizedRoots": [
+    "/Users/adityajha/market-intelligence-engine"
+  ]
+}

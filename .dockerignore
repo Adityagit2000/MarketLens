@@ -1,0 +1,10 @@
+.git
+.gitignore
+README.md
+.env
+.env.local
+docker-compose.yml
+*.md
+.DS_Store
+data/
+scripts/

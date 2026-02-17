@@ -139,3 +139,10 @@ async def websocket_alerts(websocket: WebSocket):
             await asyncio.sleep(1)
     except WebSocketDisconnect:
         manager.disconnect(websocket)
+
+
+from fastapi import FastAPI
+
+@app.get("/api/health")
+async def health():
+    return {"status": "ok"}

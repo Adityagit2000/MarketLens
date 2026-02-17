@@ -14,7 +14,7 @@ export default function Dashboard() {
 
   const { data: opportunities } = useQuery({
     queryKey: ['opportunities'],
-    queryFn: fetchOpportunities,
+    queryFn: () => fetchOpportunities(),
   })
 
   return (
